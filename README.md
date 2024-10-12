@@ -25,13 +25,13 @@ The project directory includes the following structure:
 Data Preparation
 The datasets used for training and testing can be accessed via the following Google Drive link:
 [Download Datasets](https://drive.google.com/drive/folders/1Pmw_BkYj1faSquKwGo28-87XFOUJenZZ?usp=drive_link)
-Train_60: Contains training data with features (X_Train_Data_Input.csv) and corresponding target labels (Y_Train_Data_Target.csv).
-Test_20: Contains test data used to validate model predictions.
+**Train_60**: Contains training data with features (X_Train_Data_Input.csv) and corresponding target labels (Y_Train_Data_Target.csv).  
+**Test_20**: Contains test data used to validate model predictions.
 Data Description
-X_Train_Data_Input.csv: Feature matrix for training. The features may include both numerical and categorical data relevant to the prediction.
-Y_Train_Data_Target.csv: Target values (dependent variable) for the training data, which the model will learn to predict.
-X_Test_Data_Input.csv: Features for testing the model’s predictive capabilities on unseen data.
-Y_Test_Data_Target.csv: True target values for the test set, used for model evaluation.
+- **X_Train_Data_Input.csv**: Feature matrix for training. The features may include both numerical and categorical data relevant to the prediction.
+- **Y_Train_Data_Target.csv**: Target values (dependent variable) for the training data, which the model will learn to predict.
+- **X_Test_Data_Input.csv**: Features for testing the model’s predictive capabilities on unseen data.
+- **Y_Test_Data_Target.csv**: True target values for the test set, used for model evaluation.
 Modeling Process
 
 Data Loading:
