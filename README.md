@@ -1,5 +1,5 @@
 # GSTN-Predictor
-This project demonstrates a comprehensive machine learning pipeline to predict GSTN (Goods and Services Tax Number) outcomes using a combination of Random Forest and K-Nearest Neighbors (KNN) classifiers. The pipeline includes various stages such as data preprocessing, feature selection, model training, and evaluation.By leveraging advanced techniques such as Gaussian noise addition and power transformation, we achieved highly accurate predictions.
+This project demonstrates a comprehensive machine learning pipeline to predict GSTN (Goods and Services Tax Number) outcomes using a combination of Random Forest and K-Nearest Neighbors (KNN) classifiers. The pipeline includes various stages such as data preprocessing, feature selection, model training, and evaluation.By leveraging advanced techniques such as Gaussian filter addition and power transformation, we achieved highly accurate predictions.
 
 Table of Contents
 Folder Structure
