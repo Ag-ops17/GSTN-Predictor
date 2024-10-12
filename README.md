@@ -22,6 +22,9 @@ The project directory includes the following structure:
 ── README.md
 
 
+Data Preparation
+The datasets used for training and testing can be accessed via the following Google Drive link:
+[Download Datasets](https://drive.google.com/drive/folders/1Pmw_BkYj1faSquKwGo28-87XFOUJenZZ?usp=drive_link)
 Train_60: Contains training data with features (X_Train_Data_Input.csv) and corresponding target labels (Y_Train_Data_Target.csv).
 Test_20: Contains test data used to validate model predictions.
 Data Description
