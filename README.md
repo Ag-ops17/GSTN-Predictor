@@ -36,30 +36,33 @@ Y_Train_Data_Target.csv: Target values (dependent variable) for the training dat
 X_Test_Data_Input.csv: Features for testing the model’s predictive capabilities on unseen data.
 Y_Test_Data_Target.csv: True target values for the test set, used for model evaluation.
 Modeling Process
+
 Data Loading:
-
 Training and testing datasets are loaded using pandas for further processing.
+
 Data Cleaning:
-
 Irrelevant columns are dropped, and missing values are filled with feature mean or median to maintain data integrity.
+
 Feature Correlation Analysis:
-
 Features are analyzed for correlation with the target variable. Columns with high correlation or potential data leakage are noted for further steps.
-Data Scaling:
 
+Data Scaling:
 Feature standardization ensures uniformity across the dataset, and power transformation improves robustness by stabilizing variance.
+
 Model Training:
 
 Random Forest Classifier: The first Random Forest model is trained, and important features are extracted.
 KNN Classifier: These features are then fed into a K-Nearest Neighbors (KNN) model to capture local patterns.
 Combining Predictions: KNN predictions are combined with Random Forest features for input into the final Random Forest model.
 Second Random Forest Classifier: This combined dataset is used to train a second Random Forest model, yielding optimal results.
+
 Results
 The final model achieved 100% accuracy by combining Random Forest and KNN methods with advanced preprocessing techniques like Gaussian noise addition and power transformation.
 Intermediate models, such as XGBoost (98%), ANN (97%), and Voting Classifiers (96%), provided robust benchmarks but were outperformed by the final hybrid model.
 
 
 Contributors
+
 Agnimitra Gupta
 Email: iamgni45@gmail.com
 
