@@ -9,16 +9,10 @@ Modeling Process
 Results
 Contributors
 Folder Structure
+
+
 The project directory includes the following structure:
 
-
-── Train_60
-   ├── X_Train_Data_Input.csv
-   └── Y_Train_Data_Target.csv
-── Test_20
-   ├── X_Test_Data_Input.csv
-   └── Y_Test_Data_Target.csv
-── Outputs
    ├── knn_predictions.csv
    ├── rf_features.csv
    └── rf2_predictions.csv
@@ -57,7 +51,7 @@ Combining Predictions: KNN predictions are combined with Random Forest features 
 Second Random Forest Classifier: This combined dataset is used to train a second Random Forest model, yielding optimal results.
 
 Results
-The final model achieved 100% accuracy by combining Random Forest and KNN methods with advanced preprocessing techniques like Gaussian noise addition and power transformation.
+The final model achieved 100% accuracy by combining Random Forest and KNN methods with advanced preprocessing techniques like Gaussian filter addition and power transformation.
 Intermediate models, such as XGBoost (98%), ANN (97%), and Voting Classifiers (96%), provided robust benchmarks but were outperformed by the final hybrid model.
 
 
